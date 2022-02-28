@@ -184,7 +184,7 @@ div#preloader {
 }
 
 ::selection {
-  background: #03CEA4;
+  background: #72A1E5;
   text-shadow: none;
 }
 
@@ -238,11 +238,12 @@ div#preloader {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(0, 0, 0, 0.5);
+  background: white;
 }
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.8);
+  background: white;
   height: 70px;
+  box-shadow: 2px 3px rgba(0,0,0,0.2);
 }
 #header .logo h1 {
   font-size: 36px;
@@ -263,12 +264,12 @@ div#preloader {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 70px;
+  max-height: 70px; 
 }
 @media (max-width: 768px) {
   #header {
     height: 70px;
-    background: rgba(0, 0, 0, 0.8);
+    background: white;
   }
   #header .logo h1 {
     font-size: 28px;
@@ -323,7 +324,7 @@ div#preloader {
   padding: 10px 0 10px 30px;
   font-size: 17px;
   font-weight: 500;
-  color: #fff;
+  color: #1A365E;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -333,7 +334,7 @@ div#preloader {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #03CEA4;
+  color: #72A1E5;
 }
 
 @media (max-width: 1366px) {
@@ -400,7 +401,7 @@ div#preloader {
   color: #0d2529;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #03CEA4;
+  color: #72A1E5;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -437,7 +438,7 @@ div#preloader {
 /*serve per modificare l'opacità dell'immagine in background*/
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 #hero .carousel-container {
   display: flex;
@@ -466,7 +467,7 @@ div#preloader {
 }
 #hero p {
   width: 80%;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.2;
   margin: 0 auto 30px auto;
   color: #fff;
@@ -478,7 +479,7 @@ div#preloader {
 }
 @media (max-width: 768px) {
   #hero p {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 1.2;
   }
 }
@@ -688,6 +689,7 @@ div#preloader {
 
 .team-img > a {
   display: block;
+  
 }
 
 .team-img > a::after {
@@ -704,7 +706,7 @@ div#preloader {
 
 .team-social-icon {
   left: 50%;
-  /*margin-left: -61px; per l'inserimento anche dei social network  facebook e instagram*/
+  margin-left: -26px; /*per l'inserimento anche dei social network  facebook e instagram*/
   opacity: 0;
   position: absolute;
   top: 30%;
