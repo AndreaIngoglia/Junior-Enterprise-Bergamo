@@ -1,7 +1,0 @@
-Font Proxima Nova Alt: bold per gli H1 e H2, regular per i testi
-
-
-Colori #03CEA4 (il verde acqua)
-#72A1E5 (azzurro)
-#1A365E (blu)
-
