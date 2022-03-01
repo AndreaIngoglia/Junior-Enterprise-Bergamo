@@ -471,7 +471,7 @@ div#preloader {
   line-height: 1.2;
   margin: 0 auto 30px auto;
   color: #fff;
-  text-align: justify; /*la visualizzazione mobile fa cagare*/
+  text-align: justify;
 }
 @media (min-width: 1024px) {
   #hero p {
@@ -482,6 +482,7 @@ div#preloader {
   #hero p {
     font-size: 22px;
     line-height: 1.2;
+    text-align: center;
   }
 }
 #hero .carousel-fade {
