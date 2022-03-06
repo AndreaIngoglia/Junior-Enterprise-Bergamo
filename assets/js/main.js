@@ -159,13 +159,19 @@
   });
 
   /**
-   * Preloader
+   * Preloader handling (the scrolly thingy when you load the page)
    */
   let preloader = select('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
-      preloader.remove()
+      removePreloader()
     });
+
+    // removePreloader()
+  }
+
+  function removePreloader(){
+    preloader.remove()
   }
 
   /**
